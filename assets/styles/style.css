@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*GLOBAL STYLES*/
+html {
+    margin: 0%;
+    padding: 0%;
+}
+
+body,
+a,
+h1,
+h4,
+p,
+li {
+    font-family: 'Poppins';
+}
+
+
+/*NAV-BAR*/
+.navbar {
+    z-index: 100;
+}
+
+.navbar-nav {
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+#nav {
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly ;
+   
+}
+
+.nav-link {
+    margin-right: 25px;
+}
+
+
+/*SERVICE BOX*/
+
+.card {
+    min-height: 160px; 
+    background: #FFFFFF;
+    color: black;
+    text-align: center;
+}
+
+.card-grey {
+    min-height: 160px !important;
+    background:#cfcfcf;
+    color: black;
+    text-align: center;
+}
+
+.card-title {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px !important;
+    margin-top: 10px !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.card-body img {
+    margin: 10px;
+    margin-bottom: 15px;
+    width: 16%;
+}
+
+/*ABOUT PAGE*/
+
+.abt-icon img {
+    width: 15%;
+}
+
+/*VISION PAGE*/
+
+.con-img {
+    float: left;
+}
+
+.col-auto {
+    flex: 0 0 auto;
+    /* width: auto; */
+}
+
+.text-cont p {
+    color: rgb(97, 97, 97);
+}
+
+.text-cont li {
+    color: rgb(97, 97, 97);
+}
+
+.con-cont p {
+    color: rgb(97, 97, 97);
+} 
+
+/*FOOTER*/
+
+.footer{
+    background-color: rgb(221, 221, 221);
+    margin-top: 1em;
+    width: 100%;
+    height:50px;
+}
+
+.smlink{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons-container{
+    width: 100%;
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-link-icon{
+    color: black;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-top: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.smiclist{
+    float: left;
+    width: 50%;
+    align-items: center;
+    padding-left: 7rem;
+}
+.copyrights-container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.copyrights{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    .footer {
+        height: 100px;
+    }
+
+    .copyrights {
+        display: none;
+    }
+
+    .text-hold {
+        width: auto;
+    }
+
+}
